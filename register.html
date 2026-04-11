@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>User Registration</h2>
+
+<form action="register.php" method="POST">
+
+    <label>Full Name</label><br>
+    <input type="text" name="fullname" placeholder="Enter name" required><br><br>
+
+    <label>Email</label><br>
+    <input type="email" name="email" placeholder="Enter email" required><br><br>
+
+    <label>Password</label><br>
+    <input type="password" name="password" placeholder="Create password" required><br><br>
+
+    <label>Phone Number</label><br>
+    <input type="text" name="phone" placeholder="Enter phone number"><br><br>
+
+    <label>User Role</label><br>
+    <select name="role">
+        <option>Doctor</option>
+        <option>Patient</option>
+    </select><br><br>
+
+    <button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
